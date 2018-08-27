@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "The first app",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karl-Han/electronDemo.git"
+  },
+  "author": "Karl-Han",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karl-Han/electronDemo/issues"
+  },
+  "homepage": "https://github.com/Karl-Han/electronDemo#readme"
+}
