@@ -1,19 +1,22 @@
 {
-  "name": "test",
-  "version": "1.0.0",
-  "description": "The first app",
-  "main": "index.js",
-  "scripts": {
-    "test": "start"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Karl-Han/electronDemo.git"
-  },
-  "author": "Karl-Han",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Karl-Han/electronDemo/issues"
-  },
-  "homepage": "https://github.com/Karl-Han/electronDemo#readme"
+    "name": "test",
+    "version": "1.0.0",
+    "description": "The first app",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Karl-Han/electronDemo.git"
+    },
+    "author": "Karl-Han",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Karl-Han/electronDemo/issues"
+    },
+    "homepage": "https://github.com/Karl-Han/electronDemo#readme",
+    "devDependencies": {
+        "electron": "^2.0.8"
+    }
 }
